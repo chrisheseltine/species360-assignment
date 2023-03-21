@@ -7,9 +7,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result
 
 # Workflow
-(20 mins) - design: technical considerations (see below), psuedo-code the algorithm (see below)
-(2 hours) - implementation (yeah I went over a little but I wanted to finish ^_^")
-(10 mins) - convert notes to write-up, add to README.md
+- (20 mins) design: technical considerations (see below), psuedo-code the algorithm (see below)
+- (2 hours) implementation (yeah I went over a little but I wanted to finish ^_^")
+- (10 mins) convert notes to write-up, add to README.md
 
 # Task List
 My todo list for implementation:
@@ -43,8 +43,8 @@ cycle over array and display table of images with four columns: Rank, image, ima
 
 # Write-up
 ## Technical Considerations
-create-next-app for quick spin-up (TS), comes with TS & ESLint, also allows easy UI building via React (great for prod UI later), SEO enhanced, etc.
-TailwindCSS for easy CSS utilities.
+- create-next-app for quick spin-up (TS), comes with TS & ESLint, also allows easy UI building via React (great for prod UI later), SEO enhanced, etc.
+- TailwindCSS for easy CSS utilities.
 ## Production-Ready
 To be production ready I'd like to do the following:
 - replace UI workflow with on upload workflow
