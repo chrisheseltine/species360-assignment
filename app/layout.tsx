@@ -1,4 +1,7 @@
 import './globals.css'
+import { PT_Sans_Narrow } from 'next/font/google'
+
+const bodyFont = PT_Sans_Narrow({ weight: '400', subsets: ['latin'] })
 
 export const metadata = {
   title: 'Species360 Image Compare',
@@ -12,7 +15,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${bodyFont.className} text-white bg-black`}>
+        {children}
+      </body>
     </html>
   )
 }

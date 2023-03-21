@@ -1,7 +1,9 @@
+import ImageComparisonComponent from "@/components/ImageComparisonComponent";
+
 export default function Home() {
   return (
     <main>
-      Hello World
+      <ImageComparisonComponent />
     </main>
   )
 }
