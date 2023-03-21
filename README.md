@@ -21,6 +21,7 @@ My todo list for implementation:
 6. cast results to table
 
 # Psuedo-code Algorithm
+```
 for each unselected image (if unselected.name === selected.name then continue):
   for each selected image tag:
     look for matched tag in unselected image tags:
@@ -38,6 +39,7 @@ for each unselected image (if unselected.name === selected.name then continue):
 return array of object: {imageName, averageElementScore}
 sort array of objects by object.averageElementScore descending
 cycle over array and display table of images with four columns: Rank, image, imageName, imageScore
+```
 
 # Write-up
 ## Technical Considerations
